@@ -1,0 +1,36 @@
+body {
+    background: #000;
+}
+
+#nav_bar {
+    background-color: #8c86d1;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+ul:last-child {
+    margin-right: 50px;
+}
+
+ul:first-child {
+    margin-left: 20px;
+}
+
+li {
+    margin: 5px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#name_text {
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(57, 119, 123);
+    padding-top: 20px;
+}
